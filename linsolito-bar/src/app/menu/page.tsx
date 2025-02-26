@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Menu() {
   return (
-    <div className="bg-[#FAF3E0] text-gray-900 flex flex-col min-h-screen">
+    <div className="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
       {/* Header */}
       <header className="text-white w-full py-4 shadow-lg bg-green-900">
         <div className="container mx-auto flex justify-between items-center px-6">
@@ -14,7 +14,7 @@ export default function Menu() {
             <ul className="flex space-x-6 text-lg">
               <li><Link href="/" className="hover:text-gray-300">Home</Link></li>
               <li><Link href="/menu" className="hover:text-gray-300">Menu</Link></li>
-              <li><Link href="#contatti" className="hover:text-gray-300">Contatti</Link></li>
+              <li><Link href="/contatti" className="hover:text-gray-300">Contatti</Link></li>
             </ul>
           </nav>
         </div>
